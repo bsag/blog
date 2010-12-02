@@ -1,0 +1,13 @@
+-----
+kind: article
+title: "Bright idea"
+tags:
+- life
+created_at: 2004/08/23
+permalink: bright-idea
+toc: false
+-----
+
+<p>Whose bright idea was it, I wonder, to install a TV system on the commuter trains through Birmingham? This system serves up reheated (and consequently somewhat dried up) news, public service adverts (the importance of literacy and numeracy for children and adults) and out of date weather reports. The other evening &mdash; after it had been pouring down with rain all day &mdash; I got a weather report compiled in the morning telling us that we were going to have showers that would clear up towards evening. Very helpful.</p>
+
+<p>I really don't understand what these broadcasts are supposed to be for. It's not as if we live in an information-poor age. There are more ways of getting news, weather and information on the move than there have ever been. If I so wished, I could get news headlines and weather reports on my mobile phone within a couple of seconds. The crucial difference is that I would have <strong>chosen</strong> to call up that information. On the train, you are subjected to the broadcast system, without any choice in the matter. If you could turn the audio off (or just reduce the volume) it wouldn't be so bad, but you can't. Most commuters have their own favourite ways of passing the time on their journey; they read or listen to music, or do the crossword in the paper. Hearing somebody droning on about the future of air travel isn't conducive for any of these activities, and most people glare up at the screen from time to time with an 'I want to throw a brick at you' expression on their faces.</p><p>Just after I'd started work here, I had one journey where the same short report about the government's nutritional and fitness policies in Finland looped through its cycle about 20 times. I'm all for healthy eating, but after the 19th iteration, I wanted to force-feed those Finns <a href="http://washingtontimes.com/upi-breaking/20040809-055045-1297r.htm" title="The deep-fried sausage kebab">Stonners</a> until they regained all the weight they had lost by eating vegetables and practising Nordic walking. I'm a peaceable person, but I can only take so much repetition. On one of his journeys on the same line, Mr. Bsag asked the guard if it was possible to turn the volume down. The poor guy put on his best 'must be polite to the customer' expression and said that there was nothing he could do about it, and furthermore, that Mr. Bsag was the sixth person to ask the same question that day. I know that it's not statistically valid, but I think it gives a rough indication of what people generally think of the system.</p>

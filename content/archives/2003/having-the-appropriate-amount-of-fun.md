@@ -1,0 +1,17 @@
+-----
+kind: article
+title: "Having the appropriate amount of fun"
+tags:
+- technology
+created_at: 2003/05/22
+permalink: having-the-appropriate-amount-of-fun
+toc: false
+-----
+
+<p>I'm learning <a href="http://www.perl.org" title="Official Perl page">Perl</a> in the evenings. This is slightly mad, given the amount of stuff I've got on at the moment, but hey &mdash; what's a geek to do? I'd been thinking about learning a new language (properly this time, none of that 'just learning enough to write this program that I needed yesterday' business) for some time, and had a number of different possibilities lined up. I had a slightly half-hearted attempt at <a href="http://www.python.org/" title="Official Python page">Python</a> some time ago, and I've also considered the merits of <a href="http://www.ruby-lang.org/en/" title="Official Ruby page">Ruby</a>, but in the end I settled for Perl. There are pros and cons with all languages, of course (I have no doubt that someone will argue vociferously that I made the wrong choice), but Perl seems to have the benefit of being very widely used (indeed, this very post is managed by a <a href="http://www.moveabletype.org/" title="Moveable Type">sophisticated collection of Perl scripts</a>), and there's a lot of documentation and support available, in the guise of <a href="http://www.perlmonks.org/">Perl Monks</a> and <a href="http://www.pm.org/">Perl Mongers</a>.</p>
+
+<p>For those of you who don't know Perl, it's a nice interpreted language which &mdash; reputedly &mdash; makes the "easy jobs easy, and the hard jobs possible". It makes an excellent glue to hold other things together, is great for munging text, manipulating files and doing dynamic stuff to websites. Best of all, there are thousands of pre-built modules available on CPAN, so you don't have to re-invent the wheel. It can also interface with a variety of other systems &mdash; you can even write Cocoa applications in Perl by using the <a href="http://camelbones.sourceforge.net/" title="Camelbones: a Cocoa-Perl bridge">Camelbones</a> framework!</p>
+
+<p>After a bit of dithering, I got "<a href="http://www.oreilly.com/catalog/pperl3/" title="Entry on O'Reilly catalogue">Programming Perl (3rd edition)</a>" by TomÂ Christiansen, JonÂ Orwant and LarryÂ Wall (the 'camel' book). I was slightly concerned that it might be too advanced for me, but since I've done bits of programming in a variety of other languages, I thought that I would probably cope. I don't need to be told what an array is &mdash; just how it is implemented in Perl. I must say that I'm really impressed with it. It's written in a very engaging style, and somehow it just seems to strike a chord with the way that I like to learn programming. It is quite focused on practical problems, and emphasises the fact that you don't need to know all of the language before you can write useful code (another feature of Perl). It's perfect for someone like me with no formal Computer Science training, because it means that you can gradually pick things up as you go along, but do fun things in the meantime with the 'Baby Perl' that you know.</p>
+
+<p>I suppose that it's also the way I prefer to learn spoken languages: I get bored if I have to trawl through masses of grammar and vocabulary. I just want to learn how to ask for a beer and directions to the Post Office, and just get stuck into the language from there.</p>

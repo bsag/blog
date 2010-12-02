@@ -1,0 +1,15 @@
+---
+---
+
+- is_embedded ||= false
+.article
+  %h1 
+    - if is_embedded
+      = link_to(item[:title], item)
+    - else
+      = item[:title]
+  
+  = render('_meta', :item => item)
+
+  .body
+    != content || partial(item)

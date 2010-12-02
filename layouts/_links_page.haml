@@ -1,0 +1,21 @@
+---
+---
+%h1
+  = "Links for #{year}"
+  
+.year_nav
+  %h2 Browse other years
+  %ul
+    - archive_years(2009).each do |yr|
+      %li
+        = link_to_unless_current("#{yr}", "/links/#{yr}/")
+
+.archives
+  - articles_for_year(@year, 'bookmark').each do |item|
+    .excerpt
+      %h2 
+        = link_to(item[:title], item[:link].to_s)
+      .body
+        = render('_meta', :item => item)
+        %p
+          = item.compiled_content

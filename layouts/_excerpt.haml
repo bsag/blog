@@ -1,0 +1,10 @@
+---
+---
+.excerpt
+  %h2 
+    = link_to(item[:title], item)
+  .body
+    = render('_meta', :item => item)
+    %p
+      = get_excerpt(item, 200)
+    

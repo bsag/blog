@@ -1,0 +1,13 @@
+-----
+kind: article
+title: "A very inviting pub"
+tags:
+- culture
+created_at: 2004/07/16
+permalink: a-very-inviting-pub
+toc: false
+-----
+
+<p>There's a feature in the latest issue of the <a href="http://www.camra.org.uk/SHWebClass.ASP?WCI=ShowCat&CatID=1" title="The Campaign for Real Ale">CAMRA</a> newsletter about a pub called the Square and Compass in Dorset. It's that rare breed &mdash; a real cider pub. Apparently they have up to 10 real ciders at a time. Ten! In most pubs (even ones which have real ale), you're lucky to get one proper cider &mdash; note that I don't consider bland abominations like Woodpecker or Dry Blackthorn as proper cider. It sounds like my idea of heaven, particularly as there's also no jukebox, games machines or piped music, and there's a great view from the pub garden, where free-range chickens cluck about. Just to top off the perfection levels, there's also a natural history museum attached to the pub, and it's in a village called Worth Matravers. I love any place with a name that sounds like a louche character in a bodice-ripping novel.</p><blockquote><p>Worth Matravers burst through the door of Kitty Silveroak's boudoir, eyes smoldering and nostrils flaring. "Sir, you forget yourself!", exclaimed Kitty, covering her heaving bosom with the bedclothes. "I must have you, Kitty" breathed Worth, huskily. "Do not try to pretend you have not been admiring the cut of my breeches."</p></blockquote><p>Ahem. Sorry, I got a little carried away there. That's what cider does for you, you see &mdash; it loosens the tongue and stimulates the imagination. I think it's a great shame that cider isn't more widely appreciated. Many people get put off it in late adolescence when they overindulge on Blackthorn (or 'snakebites') and have a learned aversion to cider as a result of the hideous hangover they wake up with the next day. In fact, cider shouldn't really be drunk &mdash; like ale &mdash; in pints. Some real ciders are almost as strong as wine (and just as complex and subtle in flavour), and are best drunk in small glasses. Cider-making has a very long history in this country, and there are wonderful old apple varieties with fantastic names like Greasey Pippin, Sheep's Nose, Foxwhelp, Slack-me-girdle and Merrylegs. How can anyone dislike a drink made with apples called Slack-me-girdle? It's such a shame that real cider production seems to be in a slow decline, and ancient orchards are being grubbed up because they are 'uneconomic'. I think I'll be making a visit to the Square and Compass at some point to do my bit to support real cider makers and sellers. They also serve real ale, so Mr. Bsag will be happy too.</p>
+
+

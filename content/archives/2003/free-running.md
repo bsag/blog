@@ -1,0 +1,21 @@
+-----
+kind: article
+title: "Free running"
+tags:
+- culture
+created_at: 2003/09/11
+permalink: free-running
+toc: false
+-----
+
+<p>I watched a fascinating programme a couple of days ago about the sport<sup>1</sup> of <a href="http://www.channel4.com/entertainment/tv/microsites/J/jump_london/index.html">free running</a>. Like many people, I only became aware of free running when the BBC and Nike produced adverts featuring the sport. Free running (or <em>le parkour</em>) originated in a quiet suburb in France, when some bored kids developed a game they played to a very advanced level.</p>
+
+<p>It's hard to describe <a href="http://www.urbanfreeflow.com/UrbanFreeFlow/frontpage.htm">free running</a> to someone who hasn't seen it, but very easy to understand as soon as you see it. Participants move around cities---often at roof level---travelling over and through obstacles in an elegant and gymnastic way. They jump gaps between buildings, swing around posts, do handstands on ledges, and run up walls. In the programme, three <em>parkouristes</em> travelled across London, on top of many of the major landmarks. One of the <em>parkouristes</em> tried to explain the ethos. He pointed out that, when we are children, we look at the landscape as a playground, and see things like concrete bollards as objects to balance on top of, leap-frog over and so on. Once we have grown up, we lose this ability and urban landscapes start to contain and channel us along stereotyped routes. Walls and street furniture become obstacles rather than opportunities for play. He said that <em>le parkour</em> was a way of reclaiming the city and becoming free.</p>
+
+<p>There are few rules; participants must always go forwards, never backwards, but their path can zig-zag around to take in interesting problems. Many of the moves are very dramatic, but drama isn't everything; a huge jump is pointless if it isn't executed elegantly. Nevertheless, some of the tricks and jumps are jaw-droppingly impressive. In one move on the programme, one of the <em>parkouristes</em> jumped across a gap with a wall adjacent to it, <em>ran along</em> that wall by twirling around touching his feet and hands to it, then landed on the other side of the gap. I watched this a couple of times (and in slow motion), but I still think he was laughing in the face of Newtonian physics.</p>
+
+<p>There was an interesting clash between the stunt co-ordinator and the runners. One wanted to jump from the top of the Captain's bridge on HMS Belfast to the deck, two stories below. The stunt guy said---not unnaturally---that that he thought it was too dangerous, but the runner was adamant that he could do it safely, and did. Trying to assess risk for this kind of thing is pretty pointless; the people who free run must know their own bodies and capabilities so well, that they <em>just know</em> if they'll make it or not. It also struck me that the lack of safety nets or matresses might---counter-intuitively---actually make it safer. I remember watching a documentary about road and car safety a year or two ago, and one expert explained that with every improvement in car or road safety, people decrease their perception of risk accordingly. He claimed that the best thing one might do for road safety would be to fit a large steel spike on the middle of the steering wheel of every car, pointing at the heart of the driver. A little extreme, perhaps, but the reasoning is fairly sound. My point is that free runners know that there's nothing between them and disaster except their own skill. It must still be a pretty risky thing to do---accidents happen.</p>
+
+<p>The whole ethos of free running really appeals to me. You must feel like a cross between Spiderman and Superman when you pull something particularly brilliant off. But I suspect that I would be spectacularly bad at it; when I was forced to do athletics at school, I was hopeless at hurdling. I would pull up sharply in front of the first hurdle, like a horse refusing a fence. I was scared that I would catch my foot or something, and fall flat on my face. Pathetic, aren't I?</p>
+
+<p><sup>1</sup> Practice? Discipline? Way of life? 'Sport' makes it sound too trivial, somehow.</p>

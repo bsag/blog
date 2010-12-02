@@ -1,0 +1,22 @@
+-----
+kind: article
+title: "Canon PowerShot G10"
+tags:
+- technology
+- hardware
+created_at: 2009/04/01
+permalink: Canon-PowerShot-G10
+toc: false
+-----
+
+<p>I've been planning to replace my old camera (a Casio Exilim EX-Z40) for a while, so when I got some money for my birthday recently, I put it towards a <a href="http://www.dpreview.com/reviews/canong10/">Canon PowerShot G10</a>. I spent ages trying to decide what to get. I wondered initially whether I should get a low end digital SLR, but I really wanted something that I could easily carry around with me routinely. Whenever I've regretted not getting a photograph in the past, it has usually been because I haven't had a camera with me, not because I haven't had the <em>right camera</em> with me. So that narrowed the field a bit. I was also sure that I wanted a camera which could produce RAW format files, and one which allowed a lot of manual control. My Casio Exilim is actually quite a good camera in many ways: it's very small and light, it generally exposes images pretty accurately, and the battery life is great, but there's really no manual control at all. There are 'scene' modes (for portraits, night shots, landscapes etc.), but since you have to dive into the menus to set them, it's a bit of a pain, and you end up shooting on automatic all the time. Your only artistic input into the photograph is in composing the shot, which was starting to annoy me.</p>
+
+<p>After narrowing it down a bit more, it came down to two cameras: the <a href="http://www.dpreview.com/reviews/canong10/">Canon PowerShot G10</a> and the <a href="http://www.dpreview.com/reviews/panasonicdmclx3/">Panasonic Lumix DMC-LX3</a>. Both are very nice cameras, but quite different in many ways. The Panasonic has a lovely Leica lens, and a lower pixel count, supposedly resulting in better image quality. But the lens is rather short at the longest end. The Canon is very well built with plenty of dials to control the most-used settings, but some people have reported a poorer image quality, particularly at high ISO levels. But <a href="http://www.apple.com/aperture/">Aperture</a> can not yet read the RAW files produced by the Panasonic, while it can deal with the Canon files, and I worried about the restrictive length of the lens.</p>
+
+<p>Eventually, this <a href="http://www.bill.lockharts.com/blog/2008/11/12/canon-powershot-g10-a-final-review/">in depth review</a> by Bill Lockhart, and actually handling both cameras swung my decision in favour of the Canon. As he says, the image quality is great provided that you stick to ISOs below 400 (or embrace the noise in the same way that people enjoy film grain). It's a compact camera, not a DSLR, but it's remarkably good for a compact camera, and being able to carry it around all the time is a huge bonus.</p>
+
+<p>I'm still getting used to the camera, but I'm having an enormous amount of fun with it. I've been quite dismissive of huge Megapixel counts before, so I'm astounded how much difference 14.7MP makes to the detail over a 5MP image. Working with RAW files in Aperture is another revelation, and I'm really impressed about both the initial quality of the images, and about how easy it is to make them really pop with small adjustments. The LCD is gloriously crisp, and seems <em>huge</em> after the screen on the Casio, and the optical stabilisation is amazing. I hand-held <a href="http://www.flickr.com/photos/bsag/3371776949/">this shot</a> of Cleo with a shutter speed of 1.0 sec: I was steadying my hand on the sofa, but even so, it's pretty impressive that the shot is as sharp as it is.</p>
+
+<p>The camera handles very well, and most of the controls you need for day-to-day shooting are directly accessible, without needing to go through the menus, which is very useful. It's a camera which makes you want to keep taking photographs. I've been screeching to a halt regularly on my bike commutes, and leaping off to take some image that's taken my fancy. I've posted <a href="http://www.rousette.org.uk/wingsopenwide/full/77/">a</a> <a href="http://www.rousette.org.uk/wingsopenwide/full/78/">few</a> <a href="http://www.rousette.org.uk/wingsopenwide/full/79/">photographs</a> <a href="http://www.rousette.org.uk/wingsopenwide/full/80/">on</a> wingsopenwide, and if you start with <a href="http://www.flickr.com/photos/bsag/3371151734/in/photostream/">this image</a> on flickr and work forwards through my photostream, you can see some more that I've taken with the Canon. There will be many more to come, I'm sure!</p>
+
+

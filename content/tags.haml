@@ -1,0 +1,19 @@
+---
+title: All Tags
+is_hidden: true
+---
+
+%h1
+  All Tags
+  
+%p Links to all the tags used for articles on this site are listed below, showing the number of articles tagged with each tag.
+
+.tags-page
+  - tags = count_tags()
+  %ul
+    - tags.sort_by{|k,v| k}.each do |tag_count|
+      - tag = tag_count[0]
+      - count = tag_count[1]
+      %li
+        %a(href="/tags/#{tag}/" class='tag')= tag
+        = " (#{count})"

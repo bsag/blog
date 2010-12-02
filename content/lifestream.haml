@@ -1,0 +1,50 @@
+---
+title: Reviews
+---
+%h2
+  Reviews and other recent activity
+
+%div#blippr
+  %h3
+    Films reviewed on 
+    %a(href="http://www.blippr.com/profiles/bsag") blippr
+  %script{:language=>"javascript", :src=>"http://www.blippr.com/profiles/1937/blips.widget?filter=movies&num=5"}
+.clear
+-# LibraryThing
+%div#w94e9cf604d358b04b549d9cae193b554
+  %h3
+    Books reviewed on
+    %a(href="http://www.librarything.com/profile/bsag") LibraryThing
+  %script{:type=>"text/javascript", :charset=>"UTF-8", :src=>"http://www.librarything.com/widget_get.php?userid=bsag&theID=w94e9cf604d358b04b549d9cae193b554"}
+
+.clear
+
+%div#lastfm
+  %h3
+    Recent favourite albums on
+    %a(href="http://www.last.fm/user/bsag") last.fm
+
+:javascript
+  $(document).ready( function() {
+      var _config = {
+      username: 'bsag',         // last.fm username
+      placeholder: 'lastfm',   // id of the div in HTML to use for cd covers
+      //defaultthumb: './lastfm_logo.jpg',  // image when no cd cover or artist image is found
+      period: '3month',         // which period/type of data do you want to show? you can choose from
+                              // recenttracks, 7day, 3month, 6month, 12month, overall, 
+                              // topalbums and lovedtracks
+      count: 14,              // number of images to show
+      refresh: 30,             // when to get new data from last.fm (in minutes)
+      offset: 0               // difference between your timezone and GMT.
+      };
+      lastFmRecords.init(_config);
+  });
+.clear
+
+%div#flickr
+  %h3
+    Recent photos on 
+    %a(href="http://www.flickr.com/photos/bsag/") flickr
+  %div.thumbs
+    %script{:type => "text/javascript", :src => "http://www.flickr.com/badge_code_v2.gne?count=18&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user_tag&amp;user=51035737494%40N01"}
+.clear

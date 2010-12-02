@@ -1,0 +1,17 @@
+-----
+kind: article
+title: "Various Artists - Voices of the Real World"
+tags:
+- music
+created_at: 2003/11/02
+permalink: various-artists-voices-of-the-real-world
+toc: false
+-----
+
+<p><a href="http://www.amazon.co.uk/exec/obidos/ASIN/B00003TKFY/butshesagirl-21" title="Click here to buy this CD on amazon.co.uk"><img class="pixframesmall" src="http://www.rousette.org.uk/mt-static/blog/archives/images/B00003TKFY.02.TZZZZZZZ.gif" alt="Cover of Voices of the Real World" height="65" width="65" border="0" /></a> I don't often buy compilation albums, but I stretch a lot of rules where the Real World Records label is concerned. I have a few of the albums featured on this compilation, but it has also prompted me to get albums by some of the artists I hadn't previously heard, like Geoffrey Oryema and Yungchen Lhamo. The album--as the name suggests--focuses on the vocal talents of the artists. A huge variety of vocal styles are represented, from Tibetan singing, through Georgian table music to some amazing Sardinian <em>tenore</em> signing.</p>
+
+<p>The album kicks off in extraordinary style with Tuvan <a href="http://www.itotd.com/index.alt?ArticleID=120">throat singers</a> Shu-De. Throat singing might not be everyone's cup of tea, but even if you don't like it, this track provides a lot of scope for marvelling about the flexibility and sheer range of sounds that the human vocal tract can produce. Personally, I love throat singing, and this brief track raises the hairs on the back of my neck. After this rip-roaring opening, the album stays in Asia for Yungchen Lhamo's haunting 'Happiness is...'. It's unfortunate that it shares a title with those revoltingly syrupy and slightly creepy cartoons, because it's a beautiful song--longing and passionate.</p>
+
+<p>I could go through all the tracks because I love them all, but I'll just pick out a few that really stand out. 'Mosquito' by the Dimitri Pokrovsky Ensemble is a wonderful example of traditional Russian singing, and makes me think of warmth and fellowship. And vodka. 'T'Amo' by Tenores di Bitti from Sardinia is traditional <em>tenore</em> Sardinian a capella singing, in which one man takes the melody line and three others provide harmony, using some of the same throat singing techniques at Shu-De. I heard a radio documentary about this style of singing a while ago, and was absolutely entranced by the sound. It's quite percussive, and makes you think of dry, bare mountain sides. 'Orovela' by the Tsinandali Choir from Georgia (not the one in the US) is another track that makes my hair rise. Their voices are so rich and full of feeling. Finally, 'Awa Y'Okeyi' by Papa Wemba (Democratic Republic of Congo) is one of the most heartbreakingly sad songs I've ever heard, and I don't even know what the lyrics are about. Papa Wemba has such a sweet and sorrowful voice, and when he sings slightly falsetto, something in me cracks. Someone who speaks the language will probably write to tell me that the song is about the difficulty of growing yams, but somehow I doubt it (I caught something about 'deciding to leave' in the few lines of French).</p>
+
+<p>Overall, this album makes you realise how impoverished and flat the vocal styles of most pop and rock artists--with a few honourable exceptions--are. Artists like Kate Bush, Sinead O'Connor, Daniel Lanois, Peter Gabriel, Bj&#246;rk and Lisa Gerrard all use their voices in extraordinary ways, but most other singers seem completely bland by comparison.</p>

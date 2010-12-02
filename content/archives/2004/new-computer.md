@@ -1,0 +1,13 @@
+-----
+kind: article
+title: "New computer"
+tags:
+- technology
+created_at: 2004/07/24
+permalink: new-computer
+toc: false
+-----
+
+<p>One of the perks of my new job is that I get a new computer. My trusty old 15" TiBook belongs to my current research group, so I had to get a new one; happily for me this is paid for by the new University. It has just arrived, and I've been frantically installing stuff and migrating my files across so that I can return the old one before I leave.</p><p>The new machine is a 12" PowerBook, and I'm really impressed with it so far. I thought that I would really miss the huge screen on the TiBook, but the screen is so crisp and bright that I barely notice the reduction in size. I agonised for ages about whether to get the 15" or the 12", but in the end it mainly came down to size (or rather, lack of it). I genuinely have to lug my laptop for some distance on bike or foot, and I was beginning to find the 15" a bit of burden. There isn't a lot in it (about 500g I think), but the difference is quite noticeable. It looks absolutely adorable next to the TiBook &mdash; it's as if my old laptop has had a baby. I love the design. It feels really compact and efficient, though I'll have to get used to having all the ports on the left-hand side. I used to like hiding all the messy wiring behind where I couldn't see it, even though cables were slightly more fiddly to plug in.</p><p>I'm waiting for some more RAM to be ordered, but even with half of the RAM I had in the TiBook, it feels really nippy. It does have twice the clock speed, so it flippin' well should do, I suppose, or we've all been swindled. Burning discs on my laptop is a bit of a novelty too, as I got the TiBook just before they introduced a CD-RW unit. My only slight gripe is that the keyboard feels mushy and flimsy compared to the old one. I think they've skimped a bit of money on it, though it isn't as bad as some laptop keyboards I've used. I'll probably get an external keyboard for work anyway, so it isn't too much of an issue.</p><p>I had been having some stability issues with the old machine (just accumulated cruft, I think), so I wanted to reinstall applications from scratch to avoid replicating the problem. It's only when you go to do this that you realise just how many applications you have installed, and how long it takes to locate all the disks or disk images, configure them and so on. I think this might be a good opportunity to live without some of my less frequently used stuff and see if I actually miss it. It's also funny how a Mac doesn't really feel as if it's your own until you've got all your favourite apps, utilities, and desktop backgrounds set up.</p>
+
+

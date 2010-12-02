@@ -1,0 +1,19 @@
+-----
+kind: article
+title: "Mailsmith 2.0 Part 2"
+tags:
+- technology
+created_at: 2003/06/30
+permalink: mailsmith-20-part-2
+toc: false
+-----
+
+<p>A week or so ago, I <a href="http://www.rousette.org.uk/blog/archives/mailsmith-20/">mentioned</a> trying out the new release of <a href="http://www.barebones.com/products/mailsmith/">Mailsmith 2.0</a>. At the time, I said that I couldn't use it full time because the majority of my mail comes through an IMAP account. For some reason, I had got the idea that the computing service actually <strong>blocked</strong> POP connections to the mail server, but in fact they just "strongly recommend" using IMAP. My worries were also eased on the other issue (the proprietary mailbox format), when <a href="http://www.scotlandsoftware.com/blog/" title="Irate Scotsman">Matt Gemmell</a> commented that you can easily export to mbox format just by dragging mailboxes to the Finder. So, I thought I probably owed it a decent test as my full time mail client.</p>
+
+<p>You know that feeling when you start using some piece of software seriously, and then wonder how on earth you could ever have put up with anything else? Well, <a href="http://daringfireball.net/2003/06/you_have_new_mail.html">John Gruber</a>, <a href="http://www.raoli.com/archives/2003/06/000101.php">raoli.com</a> and everyone else that has ever raved about it is spot on &mdash; Mailsmith is a superb piece of work, and well worth (temporarily) giving up the convenience of IMAP.</p>
+
+<p>Although it works fine 'out of the box', it isn't until you really play with filters, Applescripts, custom labels and custom key bindings that you really see the power and flexibility of Mailsmith. The first thing I did was to <a href="http://www.mostrom.pp.se/info/ms/scripts/scr0025.html">adapt an Applescript</a> from <a href="http://www.mostrom.pp.se/info/ms/index.html">Jan Erik Mostrom's</a> excellent Mailsmith FAQ to solve the most annoying problem with Apple Mail. I check my work email from home and work, but the work mail server won't allow me to send mail from home. In Mail, this meant remembering to send email from an alternative account, and manually setting the 'Reply-To' address to my work email. This &mdash; needless to say &mdash; was very annoying, and most of the time, I would only remember to go through this whole kerfuffle <strong>after</strong> I had hit 'Send'. Now, I just select the script from the scripts menu (I could also set a command-key sequence for it), choose my location in the list (I have to be seriously tired not to know this), and it sets the correct SMTP server for my main account. Easy.</p>
+
+<p>I spent a couple of happy hours tinkering with mailboxes and filters, and I now have a nice &mdash; mostly automated &mdash; system. The joy I feel when incoming mail trickles neatly down to its proper mailbox passeth all understanding. For example, you can include grep patterns in the filters, so mails with 'tute' or 'tutorial' (or variations of those) in the body get filed in my Tutorials mailbox. I also have custom labels set up with command key short-cuts, so that I can quickly label my incoming mail as 'answer now', 'answer within a couple of days', 'can wait a bit' or 'follow up'. Then, an Applescript can round up all these items and gather them together in 'To Do' mailboxes. Again, this came from a tip on Jan Erik Mostrom's site. Whether it will have any impact on my actual productivity is another matter, but I <strong>feel</strong> more organized.</p>
+
+<p>The glossary items and stationery are fantastic too. You can get a system command to evaluate when a glossary item is inserted, or when your signature is inserted. So, for example, you can include your uptime in a signature. I just had to try that one out... The whole system encourages tinkering and customization, which is about as good as it gets in geek heaven.</p>

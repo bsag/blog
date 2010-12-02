@@ -1,0 +1,15 @@
+---
+---
+%h1
+  = "All articles published in #{year}"
+  
+.year_nav
+  %h2 Browse other years
+  %ul
+    - archive_years(2002).each do |yr|
+      %li
+        = link_to_unless_current("#{yr}", "/archives/#{yr}/")
+
+.archives
+  - articles_for_year(@year, 'article').each do |item|
+    = render('_excerpt', :item => item) 

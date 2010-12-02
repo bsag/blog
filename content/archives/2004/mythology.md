@@ -1,0 +1,13 @@
+-----
+kind: article
+title: "Mythology"
+tags:
+- culture
+created_at: 2004/05/09
+permalink: mythology
+toc: false
+-----
+
+<p>Via <a href="http://del.icio.us/" title="del.icio.us - the social bookmark aggregator">del.icio.us</a>, I found a wonderful site documenting myths and folklore: <a href="http://www.pantheon.org/" title="Encyclopedia Mythica">Encyclopedia Mythica</a>. You can search by geographical area, or by myths or folklore (which seem to be somewhat grey categories to me. I could spend hours looking around this site, but it's fascinating what some of the stories reveal about human nature. For example, the tale of the <a href="http://www.pantheon.org/articles/s/selkie.html" title="Selkie - Orkney and Shetland">selkie</a> &mdash; always one of my favourite bits of folklore when I was a child &mdash; can be read as a feminist tract:</p><blockquote><p> A female can shed her skin and come ashore as a beautiful woman. When a man finds the skin, he can force the Selkie to be a good, if somewhat sad, wife. Should she ever recover the skin, she will immediately return to sea, leaving her husband behind. The male Selkies are responsible for storms and also for the sinking of ships, which is their way of avenging the hunting of seals.</p></blockquote><p>Isn't that sad? A man can hold the true nature of a woman captive, unless she can reclaim herself.</p>
+
+<p>Some of the folklore can be explained by similar natural phenomena in different regions. For example the <a href="http://www.pantheon.org/articles/w/will-o-the-wisp.html" title="Will-'o'-the-wisp">Will-o'-the-wisp</a> of Ireland (which has numerous different names) and the <a href="http://www.pantheon.org/articles/f/feux_follets.html" title="Feux Follets">Feux Follets</a> of Quebec are probably both manifestations inspired by marsh gases given off by bogs.</p><p>Quite where anyone got the idea of a <a href="http://www.pantheon.org/articles/n/noggle.html" title="noggle">noggle</a> though is beyond me:</p><blockquote><p>The noggle a mischievous creature in the British isles that isn't really a horse. It looks like a little gray horse with a saddle, but if someone gets on, it dashes into the water where it turns into a burning, blue cloud. The Noggle is also a pest if there are mills around, because it keeps the mills wheels from turning. Sticking a long knife into a hole in the wheel should start it turning again.</p></blockquote><p>The bit about the mills sounds suspiciously like a miller's excuse for malfunctioning equipment: "Oh, that'll be the noggle &mdash; just stick that knife in the hole there, and it should get going again." It's like rebooting your computer when you don't know what's wrong with it.</p>

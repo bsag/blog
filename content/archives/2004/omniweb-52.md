@@ -1,0 +1,31 @@
+-----
+kind: article
+title: "Omniweb 5"
+tags:
+- technology
+created_at: 2004/02/02
+permalink: omniweb-52
+toc: false
+-----
+
+<p>I've been trying out the new version of Omniweb: <a href="http://www.omnigroup.com/applications/omniweb/5/" title="Omniweb 5 Preview">Omniweb 5</a>. The beta was released today, and I must say that I'm pretty impressed with it on the whole. I'm a big fan of <a href="http://www.apple.com/safari/" title="Apple.com - Safari">Safari</a>, so a paid-for browser would have to be pretty special to replace it in my affections. However, Omniweb has two features that might just allow it to supplant Safari for me.</p>
+
+<p>I've <a href="http://www.rousette.org.uk/mt-static/blog/archives/000441.html" title="Saving Safari tabs">long moaned</a> about the fact that you can't easily save a set of tabs in Safari (at least, there is no built-in method to do so). Even with external methods of saving tabs, it doesn't help you when Safari crashes, or if you accidentally close the window or quit the application. Omniweb has a great feature called 'Workspaces'. You can save any set of windows and tabs as a workspace, which &mdash; if you check the box to âSave Windows' &mdash; are auto-saved when you quit or crash. This also means that you can save different workspaces for different tasks. I've got one set open at the moment with various blog reads, and another inactive one with some documentation pages. Switching between workspaces is very quick, and can be done either via a keyboard shortcut or the menu. It is &mdash; to borrow one of Steve Job's phrases &mdash; insanely cool. Omniweb 5 is not the most stable of beasties at the moment (well, it is a beta), but after every crash, I've been able to just launch the app again and get back exactly where I was, with all of my previous tabs loaded along with the history associated with them.</p>
+
+<p>The second cool feature is the improved bookmark management. I've always found Safari's implementation a little bit clunky. Trying to find a particular bookmark in a deeply nested hierarchy is a tedious process of clicking and looking. Omniweb has what might become a really neat implementation. You can search your collection really quickly, and even search the <strong>content</strong> of pages in your history. That's really useful when you forget what that site you visited yesterday was actually called. There's a sort of 'Smart Bookmarks' sidebar, which collects your visited pages, most visited pages, unreachable pages, recently changed pages (handy for blogs which don't have RSS feeds) and even Newsfeeds: you can view RSS feeds in the bookmarks pane. At present you can't preview the content of the feeds, but you can drag the feed to the tab drawer to view the page itself. It will be interesting to see how that feature develops.</p>
+
+<p>There are a few other features which didn't really register on the cool-o-meter when I saw them listed in the preview, but are surprisingly handy in practice:</p>
+
+<ul>
+<li><strong>Custom search keywords</strong>. If you click in a search box on a site (for example the very fine search box which can be found your right), a magnifying glass icon appears in the status bar at the bottom of the window. If you click it, a sheet appears asking for a name for the custom search, and a shortcut. I used 'bsag' as the keyword, and now I can type 'bsag Omniweb' in the location bar to search my site for the word Omniweb. All this can be accomplished without knowing the CGI voodoo used by the particular search script on any site.</li>
+<li><strong>Add Newsfeed</strong>. If a site has an RSS feed, Omniweb displays another icon in the status bar, which adds the feed to your bookmarks.</li>
+<li><strong>Site-specific preferences</strong>. I couldn't see the point of this until I actually tried it. When I visit<sup>1</sup> <a href="http://safari.oreilly.com/" title="The O'Reilly online books site, not the browser">Safari</a>, I always find the default text size too small for comfortable reading. I can easily increase the font size, but it's a pain to do every single time I visit. Now I can set the minimum font size for the site so that it gets automatically set as soon as I load it. You can also set a different downloads folder for a site, or alter the policy on ads or pop-up windows.</li>
+</ul>
+
+<p>There has been a huge amount of debate on the whole 'horizontal tabs vs. vertical tabs vs. no tabs' issue, but I think I'm coming around to the vertical tabs camp. Yes, it does take up a bit more screen estate, but you get the benefits of the page previews with about 7-8 tabs, with the advantages of fitting in a lot more tabs by switching to list mode when the tabs situation gets a bit out of hand. You can also drag tabs on to a page, move them around in the drawer, or drag links to the tabs drawer to open them as new tabs &mdash; it's all very intuitive.</p>
+
+<p>Omniweb 5 is a beta, and there are a number of rough edges. It crashes (quite a lot), and there are some oddities with organising bookmarks and a few other aspects of the UI. It also uses an old version of the Safari webcore at the moment, so there's no text shadow (boo). It's also a bit slower than Safari, though I haven't done any systematic tests. Despite all this, Omniweb shows a lot of promise.  </p>
+
+<p><strong>Update 3/2/04</strong>: Omniweb seems to have a crashing bug that's endearing rather than irritating. If I work on the computer, switching back and forth every now and again to Omniweb &mdash; it's happy. If I put the PowerBook to sleep and wake it up again with Omniweb running &mdash; it's happy. If I leave the Mac awake and Omniweb running, and then leave it completely alone for more than about half an hour &mdash; it sulks. It refuses to show its windows again when I get back to the computer, and I have to force-quit and restart it. Weird. I'm not sure how I'm going to refer to this when I report it to the Omnigroup Support Ninjas &mdash; separation anxiety, perhaps?</p>
+
+<p><sup>1</sup> I subscribed for about 6 months and then un-subscribed when my job ended and I was feeling poor. And then I got horrible withdrawal symptoms and re-subscribed. What can I say &mdash; I'm a tech books junkie. I'll just cut back on food.</p>

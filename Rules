@@ -1,0 +1,125 @@
+#!/usr/bin/env ruby
+
+preprocess do 
+  # Creates in-memory tag pages from partial: layouts/_tag_page.haml
+  def create_tag_pages
+    tag_set(items).each do |tag|
+      items << Nanoc3::Item.new(
+        "= render('_tag_page', :tag => '#{tag}')", # use locals to pass data
+        { :title => "BSAG &raquo; Articles tagged: #{tag}", :is_hidden => true}, # do not include in sitemap.xml
+        "/tags/#{tag}/",                                     # identifier
+        :binary => false
+      )
+    end
+  end
+  
+  # Creates in-memory year archive pages from partial: layouts/_year_page.haml
+  def create_archive_years
+    articles = items.select { |i| i.identifier =~ %r{^/archives/\d{4}/.+$} }
+    puts "There are #{articles.size} articles"
+    years = articles.map { |a| Time.parse(a[:created_at]).year }.uniq
+    years.each do |year|
+      items << Nanoc3::Item.new(
+        "= render('_year_page', :year => #{year})",
+        { :title => "BSAG &raquo; Archives #{year}", :is_hidden => true },
+        "/archives/#{year}/",
+        :binary => false
+      )
+    end
+  end
+  
+  # Creates in-memory year link archive pages from partial: layouts/_links_page.haml
+  def create_links_years
+    links = items.select { |i| i.identifier =~ %r{^/links/\d{4}/} }
+    puts "There are #{links.size} links"
+    years = links.map { |a| Time.parse(a[:created_at]).year }.uniq
+    years.each do |year|
+      items << Nanoc3::Item.new(
+        "= render('_links_page', :year => #{year})",
+        { :title => "BSAG &raquo; Links for #{year}", :is_hidden => true },
+        "/links/#{year}/",
+        :binary => false
+      )
+    end
+  end
+    
+  copy_static
+  create_tag_pages
+  create_archive_years
+  create_links_years
+end
+
+compile '/links/\d{4}/*/' do
+  nil
+end
+
+compile '/assets/css/*/' do
+  filter :sass
+  filter :relativize_paths, :type => :css 
+end
+
+compile '/feeds/*/' do
+  filter :erb
+end
+
+compile '/robots/' do
+  filter :erb
+end
+
+compile '/sitemap/' do
+  filter :erb
+end
+
+compile '*' do
+  # item[:extension] returns 'html.erb' for multi-dotted filename
+  ext = item[:extension].nil? ? nil : item[:extension].split('.').last
+
+  if ext == 'erb'
+    filter :erb
+  elsif ext == 'haml' || ext.nil?
+    filter :haml
+  elsif ext == 'md' || ext == 'markdown'
+    filter :erb
+    filter :rdiscount
+  else
+    raise "Filter is not configured for #{item.identifier} in Rules file."
+  end
+
+  layout 'default'
+  filter :relativize_paths, :type => :html
+  filter :rubypants
+end
+
+route '/assets/css/*/' do
+  item.identifier.chop + '.css'
+end
+
+route '/feeds/*/' do
+  item.identifier.chop + '.xml'
+end
+
+route '/sitemap/' do
+  item.identifier.chop + '.xml'
+end
+
+route '/robots/' do
+  item.identifier.chop + '.txt'
+end
+
+route '/archives/\d{4}/' do
+  item.identifier + "index.html"
+end
+
+route '/links/\d{4}/*/' do
+  nil
+end
+
+route '/links/\d{4}/' do
+  item.identifier + "index.html"
+end
+
+route '*' do
+  route_path(item)
+end
+
+layout '*', :haml

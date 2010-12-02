@@ -1,0 +1,18 @@
+-----
+kind: article
+title: "Leopard"
+tags:
+- technology
+- software
+created_at: 2007/10/28
+permalink: leopard
+toc: false
+-----
+
+<p>Thanks to pre-ordering <a href="http://www.apple.com/macosx/">Leopard</a> (it was delivered on Friday), I now have Leopard installed. The installation went very smoothly, thanks in no small part to reading <a href="http://alt.cc/jk/">Joe Kissell's</a> Take Control book, <a href="http://www.takecontrolbooks.com/leopard-upgrading.html">Take Control of Upgrading to Leopard</a> before I attempted it. Joe is a friend, but I'd be recommending his book even if he wasn't. It's very detailed, thoroughly researched, and a great confidence-booster if you're unsure about which of the installation options are best for you. I had a mess of poorly installed Unix applications in <code>/usr/local</code> and <code>/opt</code> which I was beginning to find difficult to keep straight, so I decided to go for a clean slate with the Erase and Install option. I'd made a bootable backup with SuperDuper!, so I was able to use Leopard's file transfer facility to move all my applications and user files back from the bootable backup. I'm happy to say that it worked beautifully. All I had to reinstall was the TeX distribution and MySQL (more on that later), and I had a clean and fast system.</p>
+
+<p>A lot has been written about the headline features of Leopard, so I won't repeat what you can read elsewhere, but Leopard is generally wonderful. I've been waiting for Spaces for ages, and love it, and Quick Look is addictive once you start using it. For example, I discovered today that it's perfect for quickly scanning the README files included with installation packages. Time Machine is also beautifully implemented, and makes keeping incremental archives effortless. The whole operating system seems much more consistent and integrated, both functionally and visually. There are more links between applications, like the todos which you can create or view in Mail or iCal, and the data detectors which link together information in Mail messages with Address Book information or events in iCal. Even better, as <a href="http://mattgemmell.com/2007/10/27/mac-os-x-105-leopard">Matt Gemmell</a> observed, Mac OS X is now an even more superb development platform.</p>
+
+<p>As I mentioned earlier, I used to have a mess of stuff installed in <code>/usr/local</code>, mostly because the versions of Ruby, SQLite3 and so on that came installed with Tiger were rather old. But Leopard comes with fairly up to date versions of Ruby and SQLite3, and even has ruby-gems and lots of useful gems (including Rails, naturally) pre-installed (the full details are available <a href="http://trac.macosforge.org/projects/ruby/wiki/WhatsNewInLeopard">here</a>). That's why I was able to get away with just reinstalling MySQL and TeX -- everything else I needed was already installed. The RubyCocoa frameworks are also installed by default, and integrated with XCode. These allow you to create full-blown native Mac OS X applications (taking advantage of all the native APIs) written mostly in Ruby rather than Cocoa/Objective-C. I'd been curious about it for a while, so I decided to give it a try. I used an example from the <a href="http://www.oreilly.com/catalog/rubyckbk/index.html">Ruby Cookbook</a> to build a stopwatch application in XCode and Interface Builder, and was amazed by how easy it was. That's pretty exciting, at least to me: if someone with no knowledge of Cocoa, a basic knowledge of Ruby and a few pointers from the documentation can build a proper Mac OS X application in a couple of hours, using only tools built into the operating system, that's quite impressive.</p>
+
+

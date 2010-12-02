@@ -1,0 +1,26 @@
+-----
+kind: article
+title: "The Time Traveler&#8217;s Wife by Audrey Niffenegger"
+tags:
+- culture
+- films
+created_at: 2008/11/24
+permalink: the-time-travelers-wife-by-audrey-niffenegger
+toc: false
+-----
+
+<p class="img-shadow"><a src="http://www.amazon.co.uk/exec/obidos/ASIN/0224071912/butshesagirl-21/" title="Click to buy this item at Amazon"><img src="http://images-eu.amazon.com/images/P/0224071912.02.MZZZZZZZ.jpg" alt="Buy this item at amazon.co.uk" /></a></p>
+
+<p>I've been meaning to write a full review of this book for ages, after posting a brief review on <a href="http://www.blippr.com/books/8643-The-Time-Travelers-Wife">blippr</a>. I read it while I was in Brazil, and was completely gripped. It's one of those books which you don't want to finish because you're enjoying it so much. You're also desperate to discuss it obsessively with everyone you meet, but at the same time, you don't want to spoil it for them.</p>
+
+<p>Henry (the time traveller) and his future wife Claire meet when Claire is six years old and Henry is in this thirties. They eventually marry in their twenties, with an age gap of only 8 years. That should give you some impression of the rather complex, non-linear time-line of the novel. In fact, because Henry doesn't meet her until later in his life, but Henry-in-the-future has been visiting Claire throughout her childhood, when they meet in <em>his</em> present (his past from Claire's perspective), he knows nothing about her, and she knows a lot about him. And he hasn't experienced their shared past yet. When Claire was a child the situation was reversed, because he knew her intimately, and he was an enigmatic man who appeared in her parents' field every now and again. Confused? You will be, but you gradually get used to the warped narrative, and let go of the idea that cause must precede effect.</p>
+
+<p>There must have been thousands of books and films about time travel, but Niffenegger has the amazing ability to make you feel like you've never really known about time travel before. For a start, in most sci-fi books or films, the time traveller makes a deliberate choice to go to the future or the past: Henry has no choice. His ability is involuntary, and he jumps into the past or future without much warning, arriving naked and without any possessions. It's something like eplilepsy, and he is more prone to 'time attacks' when stressed or upset.  He never knows where or when he will end up, or how long he will stay there before suddenly appearing back in his proper timeline. Because he arrives naked, he becomes an expert in picking pockets and locks (so that he can feed and clothe himself), and running and self-defence (to stave off the inevitable violence that a suddenly-appearing naked man occasions).</p>
+
+<p>As well as visiting Claire at various stages of her/their life, he also visits himself as a younger and older man. One of the most touching scenes in the book (and there are many that will make you blub like a baby) is when he gently guides his bewildered 7 year old self around a deserted museum at night on his first time travel experience. Later, he teaches himself the skills he'll need in his future life. One of the layers of subtlety is the sense that he bypasses any of the normal mechanisms of nostalgia. When we think about our past, we remember it softened by time, conveniently forgetting things which don't reflect well on us. Henry sees himself in sharp focus, exactly as he was at the time. This -- as you can imagine -- is a rather bittersweet experience. He also re-experiences traumatic events again and again, obsessively jumping back into the moment, without being able to influence events at all. It has its lighter moments too. At one point, Henry lands back in the marital bed, forehead bleeding and chuckling, and tells Claire that her child-self has just chucked a shoe at him because he wouldn't sleep with her.</p>
+
+<p>Along with everything else, it's a wonderful love story, but it's not in any way syrupy or a chick-lit novel. The characters and their relationships are so beautifully drawn that you care very deeply about them. Claire is a fascinating character. She's very independent and intelligent, and yet the fact that she knows she will marry Henry from an early age means that she is constantly in a state of suspended animation, putting her life on hold to wait for what she knows will come. She's met Henry later in his life and loved that version of him, so when he's behaving like an immature jerk, she knows that it will get better, but she still has to wait. In fact, her story is all about waiting, while Henry's is about holding on as tightly to the present as he can to prevent himself being dragged off to the future or the past.</p>
+
+<p>It's a terrific novel, and I recommend it highly. I want to read it again to pick up all the subtle clues the author gave to foreshadow various events in the book. It might look like chick-lit at first glance, but there's a lot there for the kind of obsessive geek who watched <a href="http://www.amazon.co.uk/exec/obidos/ASIN/B000C05YIG/butshesagirl-21/">Primer</a> or <a href="http://www.amazon.co.uk/exec/obidos/ASIN/B00005NONQ/butshesagirl-21/">Memento</a>  with a notebook open on their lap, trying to work out the timeline [raises hand slightly bashfully]...</p>
+
+

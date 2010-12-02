@@ -1,0 +1,566 @@
+//// Variables
+$base_color: #202020
+$heading_color: $base_color
+$normal_color: #404040
+$passive_color: #606060
+$dark_grey: #333333
+// bright orange used for links etc.
+$highlight: #FF6C07
+
+// ruby per wikipedia
+$logo_color: white
+$logo_background_color: #000
+
+$link_color: $heading_color
+$link_hover_color: $highlight
+$link_bg: transparent
+
+$tag_color: $link_color
+
+$border_color: #bbbbbb
+
+//// Mixins
+
+=sans
+  font-family: "museo-slab-1", "museo-slab-2", Arial, Verdana, sans-serif
+  
+=sans-imp
+  font-family: "museo-slab-1", "museo-slab-2", Arial, Verdana, sans-serif !important
+
+=serif
+  font-family: "calluna-1", "calluna-2", Palatino, Georgia, Times, serif
+
+=serif-imp
+  font-family: "calluna-1", "calluna-2", Palatino, Georgia, Times, serif !important
+
+=logo-font
+  font-family: baskerville, palatino, "palatino linotype", georgia, serif
+
+=monospace
+  font-family: Monaco, Consolas, "Lucida Console", "Courier New", Courier, monospace
+
+=ul_left
+  ul
+    padding: 0
+    list-style-type: none
+
+//// Styles
+
+*
+  +serif
+  color: $normal_color
+
+body
+  font-size: 16px
+  background-color: #eee
+#wrap
+  width: 1200px
+  margin: 0 auto
+#main
+  margin: 0
+  float: left
+  padding: 0
+  width: 900px
+  -moz-box-shadow: 5px 5px 10px #888
+  -webkit-box-shadow: 5px 5px 10px #888
+  border-radius: 10px
+  background-color: #fff
+a
+  background-color: $link_bg
+  border-bottom: dotted 1px $passive_color
+  color: $link_color
+  text-decoration: none
+  margin: 2px
+  &:link, &:visited
+    color: $link_color
+  &:hover
+    color: $link_hover_color
+    text-decoration: none
+    border-bottom: solid 1px $link_hover_color
+
+a.image, a:hover.image
+  text-decoration: none
+  border-bottom: none
+
+code, pre
+  +monospace
+  color: $normal_color
+  font-size: 13px
+
+blockquote, div, ol, p, pre, ul
+  line-height: 1.5em
+  margin-bottom: 1.5em
+  
+blockquote
+  background: #eee
+  padding: 0px 5px
+
+h1, h2, h3, h4, h5
+  +sans
+  color: $heading_color
+  font-weight: normal
+  a
+    +sans
+    color: $heading_color !important
+    text-decoration: none
+    border-bottom: none
+    &:hover
+      color: $link_hover_color !important
+
+h1
+  font-size: 1.8em
+  padding-bottom: 6px
+  margin-bottom: 1em
+
+h2, h3
+  color: $heading_color
+  margin: 1.5em 0 1em
+
+h2
+  font-size: 1.3em
+
+h3
+  font-size: 1.1em
+
+sup
+  line-height: 0
+  vertical-align: super
+  font-size: 0.83em
+  a
+    border-bottom: none
+
+ol, ul
+  padding-left: 30px
+  li
+    line-height: 1.5em
+
+ul
+  list-style-type: circle
+
+ol
+  list-style-type: decimal
+
+pre
+  background-color: #f8f8f8
+  border-left: 3px double $border_color
+  padding: 0.5em
+
+#header
+  .logo
+    color: $logo_color
+    float: left
+    width: 100%
+    height: 55px
+    background-image: url('http://www.rousette.org.uk/blog/assets/images/fruitbat_cropped.jpg')
+    background-repeat: no-repeat
+    background-position: left bottom
+    font-size: 2.2em
+    +logo-font
+    padding: 0
+    margin-top: 0px
+    margin-bottom: 1.5em
+    span.sub
+      font-size: 18px
+      color: $passive_color
+      font-style: italic
+    a
+      margin-left: 210px
+      text-decoration: none
+      background: transparent
+      border-bottom: none
+      +sans
+  #nav
+    float: right
+    height: 45px
+    margin-bottom: 0
+    width: 100%
+    text-align: right
+    background-color: $dark_grey
+    border-bottom: 3px solid #000
+    ul
+      margin-top: 10px
+      li
+        display: inline
+        margin-right: 10px
+        a
+          color: #fff
+          background-color: transparent
+          padding-bottom: 3px
+          text-decoration: none
+          border-bottom: none
+          &:hover
+            color: $link_hover_color
+            text-decoration: none
+            border-bottom: solid 2px $link_hover_color
+          
+  .byline
+    color: $passive_color
+#content
+  margin-left: 210px
+  padding-right: 40px
+  a.image img
+    -moz-box-shadow: 5px 5px 5px #999
+    -webkit-box-shadow: 5px 5px 5px #999
+  a.image img
+    border: 0 none
+.year_nav
+  ul
+    list-style-type: none
+    li
+      display: inline
+      margin-right: 10px
+#other-articles
+  margin-top: 4em
+  +ul_left
+  h3
+    margin: 0 0 0.5em
+  .newer
+    text-align: right
+    float: right
+  .older
+    float: left
+#sidebar
+  float: right
+  font-size: 14px
+  width: 270px
+  padding: 48px 10px
+  background: transparent
+  h1, h2, h3, h4
+    +sans
+  h1 a, h2 a, h3 a, h4 a
+    +sans
+  a
+    background: transparent
+    text-decoration: none
+    border-bottom: none
+    color: $link_hover_color
+    +serif
+    &:hover
+      color: $link_hover_color
+      text-decoration: none
+      border-bottom: solid 1px $link_hover_color
+  ol, ul
+    padding-left: 0px
+    line-height: 1.5em
+#footer
+  width: 900px
+  margin-top: 30px
+  padding: 10px 0 0 0
+  text-align: center
+  font-size: 12px
+  p
+    color: #999
+    +sans-imp
+    a
+      color: $link_hover_color
+      +sans-imp
+      border-bottom: none
+      text-decoration: none
+      &:hover
+        color: $link_hover_color
+        border-bottom: solid 1px $link_hover_color
+#taglist
+  font-size: 0.8em
+  margin-top: 3em
+  text-align: right
+  visibility: hidden
+
+.archives, .tag-page
+  .excerpt
+    font-size: 90%
+    margin: 0
+    h2
+      margin-top: 0
+  ul
+    list-style-type: none
+    padding-left: 0px
+
+.article, .excerpt, .featured
+  margin-bottom: 3em
+
+table.colophon
+  td:first-of-type
+    width: 175px
+
+.article, .featured
+  h1
+    margin-bottom: 0.25em
+
+.clear
+  clear: both
+
+.excerpt
+  margin-bottom: 1.5em
+  h2
+    margin-bottom: 0.5em
+  p
+    margin-bottom: 0.5em
+
+.meta
+  font-size: 13px
+  ul
+    margin: 0px
+    padding-left: 0
+    li
+      color: $passive_color
+      display: inline
+
+.passive
+  color: $passive_color
+  
+.active
+  color: $highlight
+  
+.hidden
+  visibility: hidden
+
+a.tag
+  color: $tag_color !important
+  padding: 0 0.1em 0
+  &:hover
+    color: $link_hover_color !important
+
+.tags
+  text-transform: lowercase
+
+.tags .date
+  text-transform: uppercase
+  font-variant: small-caps
+
+.tags-page
+  +ul_left
+// Blippr widget
+#blippr
+  h3
+    padding-left: 20px
+    background: url('http://www.rousette.org.uk/blog/assets/images/blippr-small.png') no-repeat 0 2px
+    margin-bottom: 5px
+#blippr_blips
+  list-style: none
+  padding: 5px 0px 0px
+  margin-bottom: 20px
+  li
+    clear: left
+    padding: 0px
+    margin-bottom: 5px
+  li.last
+    border: 0
+  li.head
+    display: none
+  li.foot
+    display: none
+    img
+      border: 0
+      vertical-align: middle
+      margin-left: 0px
+    a
+      color: $highlight
+  li span.blippr-image
+    clear: left
+    float: left
+    width: 65px
+    text-align: center
+    padding: 2px
+    margin-right: 15px
+    a
+      border-bottom: none
+      text-decoration: none
+    a:hover
+      border-bottom: none
+      text-decoration: none
+    img
+      border: 2px solid #000
+  li span.blippr-face-0
+    font-weight: bold
+    color: #EA157A
+  li span.blippr-face-1
+    font-weight: bold
+    color: #FEB80A
+  li span.blippr-face-2
+    font-weight: bold
+    color: #7FD13B
+  li span.blippr-face-3
+    font-weight: bold
+    color: #00ADDC
+  li span.blippr-date
+    font-size: 14px
+    color: $passive_color
+  li h5
+    font-size: 16px
+    margin: 0 0 5px
+  li div
+    font-size: 16px
+  li hr
+    clear: left
+    border: 0
+    height: 1px
+    margin: 0
+  li table td
+    vertical-align: top
+
+// LibraryThing
+div#w94e9cf604d358b04b549d9cae193b554
+  font-family: +sans-imp
+  font-size: 1em !important
+  margin-bottom: 20px
+  h3
+    padding-left: 20px
+    background: url('http://www.rousette.org.uk/blog/assets/images/librarything-small.png') no-repeat 0 2px
+    margin-bottom: 5px
+  a
+    text-decoration: none !important
+  a:hover
+    text-decoration: none !important
+.LT_header
+  display: none
+.LT_bookreview
+  font-family: +serif-imp
+  font-size: 1em !important
+.LT_cover
+  border: 2px solid #000 !important
+.LT_tags
+  font-family: +serif-imp
+  font-size: 0.8em !important
+.LT_powered
+  display: none
+
+// Sidebar styling
+
+// Social icons
+
+#social
+  h3
+    clear: right
+  a
+    text-decoration: none
+    border-bottom: none
+  a:hover, a:active
+    text-decoration: none
+    border-bottom: none
+
+// Blogroll
+#blogroll
+  ul
+    line-height: 1em
+    padding-left: 30px
+    list-style: disc
+    a
+      background-color: $link_bg
+      border-bottom: none
+      color: $link_color
+      text-decoration: none
+      margin: 2px
+      &:link, &:visited
+        color: $link_color
+      &:hover
+        color: $link_hover_color
+        text-decoration: none
+        border-bottom: solid 1px $link_hover_color
+
+// Disqus widget
+
+#recent_comments
+  font-size: 0.9em
+  div.dsq-widget 
+    padding: 2px
+    h2.dsq-widget-title
+      color: #3C4B78
+      border: none
+      text-align: left
+    li.dsq-widget-item
+      margin-bottom: 5px
+span.dsq-widget-comment
+  +serif
+
+// flickr images
+#flickr
+  height: 54px
+  width: 100%
+  div.thumbs
+    margin-bottom: 30px
+  h3
+    padding-left: 20px
+    background: url('http://www.rousette.org.uk/blog/assets/images/flickr-small.png') no-repeat 0 2px
+    margin-bottom: 5px
+  a img
+    float: left
+    margin: 0px 10px 10px 0px
+    padding: 2px
+    background: #000
+    height: 50px
+    width: 50px
+
+#feeds
+  padding: 10px 3px 10px 55px
+  background: url('http://www.rousette.org.uk/blog/assets/images/feed-icon.png') no-repeat 10px 13px
+  font-size: 1.5em
+  a
+    color: #000
+    text-decoration: none
+  a:hover
+    color: #000
+    text-decoration: underline
+    border-bottom: none
+
+// twitter styles
+.tweet
+  h3
+    padding-left: 20px
+    background: url('http://www.rousette.org.uk/blog/assets/images/twitter-small.png') no-repeat 0 2px
+    margin-bottom: 5px
+.tweet, .query
+  font-size: 0.9em
+  color: #333333
+.tweet .tweet_list, .query .tweet_list
+  -webkit-border-radius: .5em
+  list-style-type: none
+  margin: 0
+  padding: 0
+  background-color: #EEEEEE
+.tweet .tweet_list .awesome, .tweet .tweet_list .epic, .query .tweet_list .awesome, .query .tweet_list .epic
+  text-transform: uppercase
+.tweet .tweet_list li, .query .tweet_list li
+  overflow-y: auto
+  overflow-x: hidden
+  padding: .5em
+.tweet .tweet_list li a, .query .tweet_list li a
+  color: $highlight
+.tweet .tweet_list .tweet_even, .query .tweet_list .tweet_even
+  background-color: #FFFFFF
+.tweet .tweet_list .tweet_avatar, .query .tweet_list .tweet_avatar
+  padding-right: .5em
+  float: left
+.tweet .tweet_list .tweet_avatar img, .query .tweet_list .tweet_avatar img
+  vertical-align: middle
+span.tweet_text
+  +serif
+  a
+    +serif
+span.tweet_time
+  a
+    +sans
+div.tweet a.tweet_avatar
+  text-decoration: none
+  border-bottom: none
+  &:hover, &:active
+    text-decoration: none
+    border-bottom: none
+  img
+    text-decoration: none
+    border-bottom: none
+
+// last.fm styles
+#lastfm
+  h3
+    padding-left: 25px
+    background: url('http://www.rousette.org.uk/blog/assets/images/lastfm-small.png') no-repeat 0 2px
+    margin-bottom: 5px
+  a 
+    text-decoration: none
+    border-bottom: none
+    &:hover, &:active
+      text-decoration: none
+      border-bottom: none
+    img
+      border: 2px solid #000
+      margin: 0 10px 10px 0

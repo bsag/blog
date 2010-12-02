@@ -1,0 +1,26 @@
+---
+---
+- if item[:kind] == 'article'
+  .meta
+    %ul.tags
+      %li.date= pretty_time(item[:created_at])
+      %li
+        &middot;
+      %li
+        = disqus_link(item)
+      - if item[:tags]
+        %li &middot;
+        - item[:tags].sort.each do |tag|
+          %li
+            %a(href="/tags/#{tag}/" class='tag')
+              = tag
+- elsif item[:kind] == 'bookmark'
+  .meta
+    %ul.tags
+      %li.date= pretty_time(item[:created_at])
+      - if item[:pin_tags]
+        %li &middot;
+        - item[:pin_tags].sort.each do |tag|
+          %li
+            %a(href="http://pinboard.in/u:bsag/t:#{tag}/" class='tag')
+              = tag

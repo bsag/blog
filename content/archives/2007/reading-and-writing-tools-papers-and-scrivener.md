@@ -1,0 +1,25 @@
+-----
+kind: article
+title: "Reading and writing tools: Papers and Scrivener"
+tags:
+- science
+- technology
+- software
+created_at: 2007/01/24
+permalink: reading-and-writing-tools-papers-and-scrivener
+toc: false
+-----
+
+<p>I've been playing with a couple of new software tools recently which are designed to help with either the reading (<a href="http://mekentosj.com/papers/">Papers</a>) or writing (<a href="http://www.literatureandlatte.com/scrivener.html">Scrivener</a>) process. Papers is available as a 'public preview' and so has a number of rough edges, while Scrivener has reached a highly polished version 1.0, and has been rightly lauded by many people including <a href="http://www.43folders.com/2007/01/21/scrivener-review/">Merlin Mann</a>.</p>
+
+
+<p>Papers (which <a href="http://go-blog-go.blogspot.com/">Saltation</a> <a href="http://www.rousette.org.uk/blog/archives/twelfth-night/#9915">put me on to</a> -- thanks!) is designed to be an iTunes-like interface to your reading material, and is slanted towards academics. You can browse references by author, journal, rating, date or whatever, and search the other fields to narrow things down. You can associate each reference with a PDF file which you can read within the application, either in a (tabbed) window, or full screen. The really nice feature is the ability to search PubMed within the application, and then import the references. Even better, if the reference comes with a link to the PDF of the article, you can import that directly too, and it gets named, filed and associated with its reference automatically. It doesn't sound very revolutionary (indeed, other bibliography managers can do something similar), but it's really fast and very slick. If you've ever spent ages clicking around on web, saving and importing citations and separately finding and downloading the PDF file, then linking the two together, you really won't want to go back to doing that after trying Papers.</p>
+
+<p>Since it's designed as an app for the acquisition and processing phase of gathering reference material rather than the usage end, you can't currently export a list of references, or insert citations into a manuscript as you can with most bibliography management applications. I use <a href="http://bibdesk.sourceforge.net/">BibDesk</a> to manage my references (and don't plan to change that), but I'd really like a way to pipe/link references from one to the other. After all, the point of getting all those references in order and reading them is to actually <em>use</em> them. I contacted the authors with some suggestions, and they are planning to have better import and export capabilities at some point, which is great. It has quite a bit of promise, so I'm going to keep my eye on its development.</p>
+
+<p>Scrivener, as I said, is very polished. In fact, it's the kind of Mac application that reminds me of a lovely piece of furniture made by a cabinet maker, complete with precise dovetail joints. It seems to be solidly stable, and has the kind of fit-and-finish and attention to detail that makes you realise that the developer has really thought about how it should work. Keith, the developer, is a writer himself, and wrote the application to give himself the tool he wanted for writing (much like <a href="http://en.wikipedia.org/wiki/Donald_Knuth">Donald Knuth and TeX</a>). You can see that either as incredible dedication to the craft of writing, or as particularly creative procrastination, but it has resulted in a lot of benefit for other people either way!</p>
+
+<p>The idea behind Scrivener is to allow writers to <em>just get stuff down</em>, rearrange and organise it in a non-linear way without worrying too much about the fiddly stuff, polish it, and <em>then</em> get it into a publication-ready state. There are various ways to look at your bits of script, including an outliner and as virtual index cards pinned to a corkboard, and you can also store reference material (images, PDF files, movies, sounds etc.) and incidental note snippets. You can export in a number of different formats, including RTF(D), HTML, plain text, and -- this is the killer for me -- LaTeX via MultiMarkdown. So you can just write the way you want to, then get the document into the format or formats you want at the end.</p>
+
+<p>It's aimed primarily at creative writers, but I've been using it seriously for a few days, and I've found it incredibly helpful for putting together academic texts. Just being able to view and make notes on your reference articles in the same interface is a simple but valuable function. People don't often see science writing as a creative process, but even though you are writing about more or less concrete facts, you still have to conjure the flipping words out of thin air, and arrange them in a way that tells a coherent story and makes sense in the minds of your readers. For that reason, being able to move chunks of text around easily -- without getting so hung up on whether you want to say 'suggests' or 'implies' that you that you never finish putting the ideas together -- is immensely useful.</p>
+

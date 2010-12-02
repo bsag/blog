@@ -1,0 +1,21 @@
+-----
+kind: article
+title: "Channel 5 in interesting documentary shock!"
+tags:
+- science
+created_at: 2003/09/26
+permalink: channel-5-in-interesting-documentary-shock
+toc: false
+-----
+
+<p><a href="http://www.five.tv/">Channel 5</a> seems to be determined to disguise its informative documentaries cunningly with copious amounts of schlock. Exhibit A: earlier in the week I watched a documentary called "Killer Squid Attack". That title could only be made closer to the Channel 5 archetype by inserting the word 'Nazi'. I suppose that I could try to claim that I knew all along it would be interesting, but the truth is that I just thought it might be funny. Plus I'm a bit of a <a href="http://danhon.com/ec/mtarchives/2003/08/09/preemptively_bowing_to_cephalopoid_overlords/index.shtml#000613">cephalopod-ophile</a>.</p>
+
+<p>Imagine my surprise when the documentary actually turned out to be quite interesting. True, there was rather gratuitous use of 'Jaws'-like background music, and a lot of talk of aggression, 'frenzied attacks' and cannibalism. My view is that if you've just been caught on a barbed hook, yanked out of an environment in which you can breathe, and had a piercing to insert a scientific identification tag, you're entitled to a certain amount of tetchiness.</p>
+
+<p>The 'killer squid' in question are the Humboldt squid (<em>Dosidicus gigas</em>), or--as they were dubbed in the programme--jumbo squid. Really, the word 'jumbo' should be reserved for food portions, which I suppose might apply to this species. "Jumbo squid rings, anyone?" They live in the Gulf of Mexico at depths of 200-700m, and are a pretty mysterious species. They are predatory, very curious about divers, and yes--they can be quite agressive, but then they are predators, and that's really part of the job description.</p>
+
+<p>The documentary followed biologist William Gilly who was trying to set up a mark-recapture scheme to track their distribution, and also presumably estimate the population. The idea is that if you catch and mark a known number of individuals, then recapture a number of the marked animals out of a known number of unmarked individuals, you can use a clever algorithm to estimate the likely population. Along the way there was some stunning film of the Humboldt squid displaying amazing strobing colour patterns on their bodies, and also fascinating stuff about the gigantic size of their eyes and the retinas within them. Their ability to see polarized light allows them to see their prey in high contrast to the background.</p>
+
+<p>They had some footage of my favourite cephalopods (cuttlefish) being trained to generate a black cross on their skin in imitation of a similar shape drawn on a piece of paper and held up to their tank. Cephalopod skin is amazing stuff. They have different coloured pigments in sacs which can be expanded and compressed in a fraction of a second by tiny muscles. This means that they can mix almost any colour to display, and even show moving, cloud-like or strobing patterns. These muscles are under direct neural control, so in one sense you are seeing their emotions on their skin. The bit that made me laugh out loud was footage of a male reef squid showing his seductive burgundy 'pulling colours' to a female on exactly half of his body, while the other half was a 'back off mate' pale colour to show to a rival male. When the female moved around to his other side, he swapped the sides over in a fraction of a second--very suave. The thought crossed my mind that if you could wire them up properly, you could probably display video on a squid (not that I would ever do that to a squid, you understand).</p>
+
+<p>Having just played down the 'killer' aspects of the Humboldt squid, I must say that a sequence where a diver went down to great depth in the dark to film them really gave me the willies. They appeared like pack of red ghosts out of the dark, hung back for a few moments, then grabbed hold of the lights, then the camera, and then the diver's mask. He gave them a sharp smack to show them that he wasn't a total push-over, and they disappeared back into the depths. When he came back up, and was describing the encounter to William Gilly, there was a long pause in his explanation. "It was...spooky." Rather him than me, I think.</p>

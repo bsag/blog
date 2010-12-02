@@ -1,0 +1,16 @@
+---
+---
+:ruby
+  def copyright_date
+    date = "2002-"+Time.now.strftime("%Y")
+  end
+%p
+  Copyright &copy; rousette.org.uk
+  = copyright_date
+  &raquo; Powered by
+  %a(href="http://nanoc.stoneship.org/" title="Powered by nanoc") nanoc
+  using mgutz's
+  %a(href="http://github.com/mgutz/nanoc3_blog") nanoc3_blog
+  template (
+  %a(href="/licence/")> licence
+  )

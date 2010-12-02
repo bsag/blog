@@ -1,0 +1,58 @@
+---
+---
+
+%div#social
+  %h3
+    Activity elsewhere
+  %a(href="http://www.flickr.com/photos/bsag/" title="My photographs on flickr")
+    %img(src="/assets/images/flickr-large.png")
+  %a(href="http://www.twitter.com/bsag" title="Follow me on Twitter")
+    %img(src="/assets/images/twitter-large.png")
+  %a(href="http://www.last.fm/user/bsag" title="What I'm listening to on Last.fm")
+    %img(src="/assets/images/lastfm-large.png")
+  %a(href="http://friendfeed.com/bsag" title="Collected social stuff on friendfeed")
+    %img(src="/assets/images/friendfeed-large.png")
+  %a(href="http://pinboard.in/u:bsag" title="Bookmarks on Pinboard.in")
+    %img(src="/assets/images/pinboard-large.png")
+  %a(href="http://bsag.tumblr.com/" title="Slipstream: my Tumblr blog for quick posts")
+    %img(src="/assets/images/tumblr-large.png")
+
+%div#flickr
+  %h3
+    Recent photos on the 
+    %a(href="http://photos.rousette.org.uk/") photoblog
+  %div.thumbs
+    %script{:type => "text/javascript", :src => "http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user_tag&amp;user=51035737494%40N01&amp;tag=photoblog"}
+
+.clear
+
+- if is_front_page?
+  %div.tweet
+    %h3
+      %a(href="http://www.twitter.com/bsag" title="Follow me on Twitter") Twitterings
+
+  :javascript
+    $(document).ready(function(){
+        $(".tweet").tweet({
+            username: "bsag",
+            join_text: "auto",
+            avatar_size: 32,
+            count: 5,
+            auto_join_text_default: "", 
+            auto_join_text_ed: "",
+            auto_join_text_ing: "",
+            auto_join_text_reply: "",
+            auto_join_text_url: "",
+            loading_text: "loading tweets..."
+        });
+    });
+
+  %div#blogroll
+    %script{:type=>"text/javascript", :src=>"http://www.google.com/reader/ui/publisher-en.js"}
+    %script{:type=>"text/javascript", :src=>"http://www.google.com/reader/public/javascript-sub/user/01916814005430196294/label/Good reads?callback=GRC_p(%7Bc%3A%22-%22%2Ct%3A%22Currently%20reading%22%2Cb%3A%22true%22%7D)%3Bnew%20GRC"}
+
+  %div#recent_comments
+    %h3.dsq-widget-title
+      Recent Comments powered by
+      %a(href="http://disqus.com/") Disqus
+    %script{:type => "text/javascript", :src => "http://disqus.com/forums/bsag/recent_comments_widget.js?num_items=5&hide_avatars=0&avatar_size=32&excerpt_length=200"}

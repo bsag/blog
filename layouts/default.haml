@@ -1,0 +1,85 @@
+---
+---
+
+!!! Strict
+%html
+  %head
+    - if @item[:kind] == 'article'
+      %title= "BSAG &raquo; #{@item[:title]}"
+    - else
+      %title= "#{@item[:title]}"
+    %meta(content="text/html; charset=utf-8" http-equiv="Content-Type")
+    %meta(name="keywords" content="geek, apple mac, photography")
+    %link(href='/assets/css/reset.css' rel="stylesheet" type="text/css")
+    %link(href='/assets/css/style.css' media="screen" rel="stylesheet" type="text/css")  
+    -# Feedburner feed
+    %link(href="http://feeds.feedburner.com/butshesagirl" rel="alternate" title="Primary Feed" type="application/atom+xml")
+    -# Typekit
+    %script{:type=>"text/javascript", :src=>"http://use.typekit.com/pkq3bvb.js"}
+    %script{:type=>"text/javascript"} try{Typekit.load();}catch(e){}
+    -# jQuery related assets
+    %link(href="/assets/css/jquery_tweet.css" media="all" type="text/css")
+    %script{:language => "javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js", :type => "text/javascript"}
+    %script{:language => "javascript", :src => "/assets/js/jquery_tweet.js", :type => "text/javascript"}
+    %script{:type => "text/javascript", :src => "/assets/js/lastfm_records.js"}
+
+  %body
+    -# needed since some content render <pre> blocks
+    - content = find_and_preserve(yield)
+    #wrap
+      #main
+        #header
+          #nav
+            %ul
+              %li
+                = link_to_unless_current("home", '/')
+              %li
+                = link_to_unless_current("about", '/about/')
+              %li
+                = link_to_unless_current("lifestream", '/lifestream/')
+              %li
+                = link_to_unless_current("archives", "/archives/#{Time.now.strftime("%Y")}/")
+              %li
+                = link_to_unless_current("links", "/links/#{Time.now.strftime("%Y")}/")
+              %li
+                = link_to_unless_current("tags", '/tags/')
+              %li
+                %a(href="http://feeds.feedburner.com/butshesagirl" class="icon")
+                  %img(src="/assets/images/rss-small.png")
+              %li
+                %a(href="http://photos.rousette.org.uk/") photoblog
+          .clear
+          .logo
+            %a(href="/") but she's a girl...
+            %span.sub
+              [Femina geekoides]
+        .clear
+        #content
+          - if @item[:kind] == 'article'
+            = render('_article', :item => @item, :content => content)
+            = render('_other_articles_nav', :reference_item => @item)
+            .clear
+            - if disqus_shortname && !is_front_page?
+              = render('_disqus', :item => @item)
+          - else
+            = content
+      #sidebar
+        = render('_sidebar')
+      .clear
+      #footer
+        = render('_footer')
+
+    -# disqus: inserts number of commments
+    :javascript
+      (function() {
+        var links = document.getElementsByTagName('a');
+        var query = '?';
+        for(var i = 0; i < links.length; i++) {
+          if(links[i].href.indexOf('#disqus_thread') >= 0) {
+            query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+          }
+        }
+        document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/#{disqus_shortname}/get_num_replies.js' + query + '"></' + 'script>');
+      })();
+ 
+    = render('_reinvigorate')

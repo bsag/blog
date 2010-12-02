@@ -1,0 +1,25 @@
+-----
+kind: article
+title: "My perfect writing environment"
+tags:
+- technology
+created_at: 2003/07/02
+permalink: my-perfect-writing-environment
+toc: false
+-----
+
+<p>I've been on a quest for the perfect academic writing environment for some time. On a good day, the current bloated, wheezing incarnation of Word makes me grind my teeth, and on a bad one bystanders are well advised to remove all sharp objects from my vicinity. I'm always on the lookout, so when I saw <a href="http://www.blue-tec.com/ulysses/">Ulysses</a> (also discussed on <a href="http://macslash.org/article.pl?sid=03/07/01/1151234&mode=thread">MacSlash</a>), I had to download it and give it a go. It seems to get a lot right (though it's at an early stage of development), but it's not perfect for me, which could just be because I'm very demanding. Ulysses is slanted towards creative writers, but many of the features would also work well for academic writing. They make the point that novels are rarely written in one go, starting at the beginning, but I know of very few scientists who write papers in that way either.</p>
+
+<p>So here are the elements of my perfect writing environment. Many editors/word processors have some of these, but none have all. Note that I'm talking about writing text not code, and formats which are editable (obviously, if no-one else needs to edit the file, a PDF file can be generated from any application in MacOSX).</p>
+
+<ul>
+<li><strong>Concentrate on the writing</strong>. First and foremost, a good writing environment should not get in your way. Formatting has nothing to do with the substance of what you write, and &mdash; as I know to my cost &mdash; provides dangerous displacement activity to do in place of actual work. <a href="http://www.barebones.com/products/bbedit/index.shtml" title="Bare Bones Software, BBEdit">BBEdit</a> is suitably lean and mean, but it is really slanted towards writing code. This brings me on to the next point...</li>
+<li><strong>Export formats</strong>. It seems to me that all you need to mark up while writing is (as with clean XHTML) the structure of the document (headings, subheadings, emphasised text etc.). All academic journals want text visually formatted in a different way. With structural markup, this should be a reasonably easy job. You can use styles in this way in Word, but I've never found it particularly easy. The ideal would be if journals could supply something like an XML stylesheet, which would then visually style your document exactly the way you want it. What you then also need is the ability to export in a number of formats. I like using <a href="http://www.latex-project.org/" title="LaTeX project page">LaTeX</a>, but few biological journals will accept .tex files: most accept only Word .doc format, or sometimes RTF. Ulysses has a plugin to convert to RTF, and LaTeX converters are in the pipeline.</li>
+<li><strong>Flexibility and extensibility</strong>. I like to be able to make my writing environment comfy and exactly the way I like it. BBEdit is strong on this, as is <a href="http://www.nisus.com/">Nisus Writer</a>, allowing rich Applescripts, shell and Perl scripting to make your life easier.</li>
+<li><strong>References</strong>. Academic writers need to cite sources frequently, so some easy and reasonably transparent way to do this is important. I'm glad to see that the new version of <a href="http://www.endnote.com/en7info.asp">Endnote</a> restores the old ability to scan any RTF document for citations, and to format them in the document.</li>
+<li><strong>Commenting/reviewing</strong>. I do very little academic writing on my own. Most papers pass through several people's hands before they see the light of day, so a clear way to see what others have changed, and the comments they have made, is vital. <a href="http://hydra.globalse.org/">Hydra</a>-like collaborative features would be ideal. Oh, and these collaborators use a mixture of Macs and PCs.</li>
+<li><strong>Open or human-readable file format</strong>. I've sweated over my work: I don't want to lose it forever if the company making the application goes belly up.</li>
+<li><strong>Organize related files</strong>. I quite like the way Ulysses deals with this: all of the documents related to a particular project are kept inside the MacOSX package, so that it appears as a single file to the system (but you can still dive in and grab a plain text document yourself). This also means that you could keep all the different versions of the final document together, without having to think of unique names for them, or use the 'kiss of death' title, 'Final version'.</li>
+</ul>
+
+<p>I don't want much do I? If there are any developers out there keen to build the world's greatest academic writing environment, I'd be very happy to be an ultra-demanding beta tester. Otherwise, I'll just have to see if I can cobble together some kind of work flow with BBEdit, Applescripts and Perl scripts, with Word making an appearance at the last possible moment.</p>

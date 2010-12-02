@@ -1,0 +1,14 @@
+---
+---
+- is_embedded = true
+.article
+  - links = pinboard_links
+  - links.each do |i|
+    %h2 
+      = link_to(i[:title], i[:link].to_s)
+
+    = render('_meta', :item => i)
+  
+    .body
+      %p
+        = i.compiled_content

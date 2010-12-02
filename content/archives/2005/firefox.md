@@ -1,0 +1,20 @@
+-----
+kind: article
+title: "Firefox"
+tags:
+created_at: 2005/12/02
+permalink: firefox
+toc: false
+-----
+
+<p>With all the hullabaloo over the release of <a href="http://www.mozilla.com/firefox/">Firefox 1.5</a>, I decided it was time to give it a proper go. I've had previous versions installed on my system for a while (along with Opera, Omniweb and Safari, of course), but I tend to just launch it occasionally when other browsers have problems, or to check the rendering of my site designs in another browser. Shallow though it may be, the main problem I've always had with Firefox is that it just doesn't look very Mac-like.</p>
+
+<p>After a little bit of digging, that particular problem was solved by the <a href="http://www.grapple.net.tf/">GrApple Eos Pro</a> theme; very simple, stylish, and a bit like Safari without the brushed metal. <a href="http://www.amake.us/software/firefoxy/">Firefoxy</a> makes form widgets a little smoother and more Mac-like, rather than the boxy Firefox-native widgets, which always seem too large to me.</p>
+
+
+<p>One of the great strengths of Firefox is the number of extensions which are available to fill particular needs, without having to make the core application too bulky for those who don't need a lot of features. I've had a bit of fun with the extensions page, and am currently enjoying the <a href="https://addons.mozilla.org/extensions/moreinfo.php?id=1532">del.icio.us toolbar</a>, <a href="https://addons.mozilla.org/extensions/moreinfo.php?id=436&amp;application=firefox">SessionSaver</a> (which unsurprisingly saves the tabs in your current session if you quit the browser or it crashes, and re-opens them when you launch it again), and <a href="http://passwordmaker.org/">PasswordMaker</a>. PasswordMaker is a really ingenious extension which can automatically generate passwords for you by calculating a string based on a master password, the domain that you're providing a password for, and optionally a username and other prefixes or suffixes, via a one-way hash algorithm. Crucially, it can then regenerate the password for you when you right click in a password field and supply your master password. So you only have to remember one strong password, but you get a strong and unique password for every domain you log in to.</p>
+
+<p>Firefox is very speedy, and solves some of the Safari annoyances, like having to click on a page with a mouse on gmail before being able to use the keyboard shortcuts to open or archive a message. However, not being able to use Services and having very limited Applescript support is a little annoying. It's amazing how much you come to rely on that kind of integration with the system, without realizing that you're doing so. I'm going to give it a couple of weeks and see how I feel at the end of that time, but Firefox is undeniably a great browser.</p>
+
+<p><strong>Update 5-12-2005:</strong> I've just found another extension which I love with a passion and have to mention. <a href="http://users.tkk.fi/~psillanp/hah_hp/">Hit-A-Hint</a> temporarily adds numbered labels to each of the links on a page when a hotkey is pressed (comma, by default), or a 'magic key' (spacebar, by default) is held down. You then just have to type the number and either hit enter (if using the hotkey) or release the magic key if you're using that method, and Firefox acts as if the link has been clicked. It makes navigating around from the keyboard stupidly easy. However, Hit-A-Hint hasn't officially been updated for Firefox 1.5, so you need to hack a little to get it to work. I found that following the <a href="http://www.lifehacker.com/software/firefox/make-extensions-work-in-firefox-15-136993.php">method suggested on Lifehacker</a> worked fine: if you follow those steps, then try installing Hit-A-Hint, it works fine. I also then changed the magic key to the tilda key because I use the spacebar to move the page down. If you load the about:config page, then search for extensions.hah.keys.magic and change the value to 3072. That seems to do the trick.</p>
+
