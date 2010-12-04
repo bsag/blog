@@ -8,7 +8,7 @@ module TaggingExtra
   #The tags are only present once in the returned value.
   #When called whithout parameters, all the site items
   #are considered.
-  def tag_set(items=nil) 
+  def tag_set(items=nil)
     items = @items if items.nil?
     tags = Set.new
     items.each do |item|

@@ -12,6 +12,20 @@ require 'builder'
 require 'fileutils'
 require 'time' 
 
+# Just select articles published this year
+def current_articles
+  current_year = Time.now.year.to_s
+  @items.select { |item| item[:kind] == 'article' and item.identifier =~ %r{^/archives/#{current_year}/.+$} }
+end
+
+# Sort articles published this year in reverse chronological order
+def current_sorted_articles
+  articles.sort_by do |a|
+    time = a[:created_at]
+    time.is_a?(String) ? Time.parse(time) : time
+  end.reverse
+end
+
 # Hyphens are converted to sub-directories in the output folder.
 #
 # If a file has two extensions like Rails naming conventions, then the first extension
@@ -119,28 +133,28 @@ def is_front_page?
 end
 
 def n_newer_articles(n, reference_item)
-  @sorted_articles ||= sorted_articles
-  index = @sorted_articles.index(reference_item)
+  @current_sorted_articles ||= current_sorted_articles
+  index = @current_sorted_articles.index(reference_item)
   
   # n = 3, index = 4
   if index >= n
-    @sorted_articles[index - n, n]
+    @current_sorted_articles[index - n, n]
   elsif index == 0
     []
   else # index < n
-    @sorted_articles[0, index]
+    @current_sorted_articles[0, index]
   end
 end
 
 
 def n_older_articles(n, reference_item)
-  @sorted_articles ||= sorted_articles
-  index = @sorted_articles.index(reference_item)
+  @current_sorted_articles ||= current_sorted_articles
+  index = @current_sorted_articles.index(reference_item)
   
   # n = 3, index = 4, length = 6
-  length = @sorted_articles.length
+  length = @current_sorted_articles.length
   if index < length
-    @sorted_articles[index + 1, n]
+    @current_sorted_articles[index + 1, n]
   else
     []
   end

@@ -15,7 +15,9 @@ preprocess do
   
   # Creates in-memory year archive pages from partial: layouts/_year_page.haml
   def create_archive_years
-    articles = items.select { |i| i.identifier =~ %r{^/archives/\d{4}/.+$} }
+    require 'time'
+    current_year = Time.now.year.to_s
+    articles = items.select { |i| i.identifier =~ %r{^/archives/#{current_year}/.+$} }
     puts "There are #{articles.size} articles"
     years = articles.map { |a| Time.parse(a[:created_at]).year }.uniq
     years.each do |year|
