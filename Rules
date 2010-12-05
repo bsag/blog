@@ -46,7 +46,7 @@ preprocess do
   end
     
   copy_static
-  create_tag_pages
+  # create_tag_pages
   create_archive_years
   create_links_years
 end
