@@ -147,9 +147,9 @@ def n_older_articles(n, reference_item)
 end
 
 def pinboard_links
-  curr_year = Time.now.year
+  # curr_year = Time.now.year
   max = pinboard_links_total
-  links = items.select { |i| i.identifier =~ %r{^/links/#{curr_year}/.+$} }.sort_by {|a| a[:created_at] }.reverse
+  links = items.select { |i| i.identifier =~ %r{^/links/\d{4}/.+$} }.sort_by {|a| a[:created_at] }.reverse
   sorted_links = links.take(max)
   return sorted_links
 end
