@@ -44,6 +44,7 @@ TEMPLATE
     FileUtils.mkdir_p(path) if !File.exists?(path)
     File.open(full_path, 'w') { |f| f.write(template) }
     $stdout.puts "\t[ok] Edit #{full_path}"
+    pasted = `echo #{full_path} | pbcopy` # Put the path on the clipboard
   end
   
   desc "Pulls in public links from Pinboard.in"
@@ -107,8 +108,8 @@ TEMPLATE
   end
 
   def calc_path(title)
-    year, month_day = @ymd.split('-', 2)
-    path = "drafts/"
+    year = Time.now.year
+    path = "content/archives/#{year}/"
     filename = title.parameterize('-') + ".md"
     [path, filename, path + filename]
   end
