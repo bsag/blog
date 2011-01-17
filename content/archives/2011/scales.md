@@ -7,6 +7,8 @@ title: "Scales"
 permalink: scales
 ---
 
+<p><a class="image" href="http://www.flickr.com/photos/bsag/5360355910" title="View 'Librasco scales' on Flickr.com"><img border="0" width="500" alt="Librasco scales" src="http://farm6.static.flickr.com/5202/5360355910_9d52d1e675.jpg" /></a></p>
+
 Sometimes the old things are the best things. I had a set of electronic
 kitchen scales, which served me well for many years. They weren't fancy,
 but they worked and did the basics: you could weigh in metric or
@@ -60,6 +62,8 @@ scales &mdash; your patio would suffer). I like that.
 We've kept the replacement set of Salter scales just in case (they might
 be useful for weighing letters and small parcels), but the cast iron
 scales are the ones we're actually using.
+
+[Updated 16-01-2011 to add image]
 
 [Terraillon]: http://www.terraillon.com/produit_kitchen-scales-electronic-kitchen-scales-maya_77.html 
 [Salter]: http://www.salterhousewares.com/salter_uk/catalogue/kitchen-scales/disc-electronic-kitchen-scale.html
